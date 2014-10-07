@@ -1,0 +1,89 @@
+/*
+Theme Name: Fullpane Child
+Description: Child theme for Fullpane theme
+Author: Chris Lai
+Template: fullpane
+*/
+
+@import url("../fullpane/style.css");
+
+/* write custom css below */
+#site-logo a{
+	color: #fff;
+	font-weight: 300;
+	text-transform: none;
+}
+::-moz-selection {
+	color: #fff;
+	background: #ff9800;
+}
+::selection	  {
+	color: #fff;
+	background: #ff9800;
+} 
+h1, h2, h3, h4, h5, h6, .section-title, .post-title, html .post-title a, html body{
+	color: #000;
+	opacity: .87;
+}
+.single-portfolio .post-nav a i{
+	color: #5677fc;
+	opacity: .87;
+}
+
+/*Section Circle on side*/
+#fp-nav li .active span, .fp-slidesNav .active span {
+	background: #5677fc;
+}
+
+#fp-nav span, .fp-slidesNav span{
+	border: 1px solid #5677fc;
+}
+
+/* Hover Slide Effect */
+body .portfolio-post.loops-wrapper.grid4 .post-content,
+body .portfolio-post.loops-wrapper.grid3 .post-content,
+body .portfolio-post.loops-wrapper.grid2 .post-content,
+.portfolio.loops-wrapper.grid4 .post-content,
+.portfolio.loops-wrapper.grid3 .post-content,
+.portfolio.loops-wrapper.grid2 .post-content,
+.portfolio.loops-wrapper.slider .post-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	bottom: 0;
+	padding: 40px 40px 0 40px ;
+	background: #ee2c49;
+	background: rgba(0,0,0,0.26);
+	text-align: center;
+	color: #fff;
+	-webkit-transition: top 0.4s ease-out;
+	-moz-transition: top 0.4s ease-out;
+	-ms-transition: top 0.4s ease-out;
+	-o-transition: top 0.4s ease-out;
+	 transition: top 0.4s ease-out;
+}
+
+#main-nav a{
+	padding: 25px 20px;
+	border: none !important;
+}
+#main-nav a:hover{
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out
+	-ms-transition: all .3s ease-out
+	-o-transition: all .3s ease-out
+	transition: all .3s ease-out;
+
+	background-color: #fff;
+	color: #000;
+	opacity: .87;
+}
+.current_page_item{
+	transition: all .3s ease-out;
+	background-color: #fff;
+}
+.current_page_item a{
+	color: #000;
+	opacity: .87;
+}
