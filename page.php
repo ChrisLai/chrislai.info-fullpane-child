@@ -95,10 +95,14 @@ global $themify; ?>
 
 			<?php if(have_posts()): ?>
 				
+				<!--I would like to thank Petr Tichy(ihatetomatoes) for posting a tutorial for this loader -->
 				<?php if( 'section' == $themify->query_post_type ): ?>
 				<div class="section_loader">
-					<div class="section_spinner"></div>
+				    <div id="loader"></div>
 				</div>
+				<!--<div class="section_loader">
+					<div class="section_spinner"></div>
+				</div>-->
 				<?php endif; ?>
 				
 				<!-- loops-wrapper -->
