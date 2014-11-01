@@ -95,6 +95,17 @@ article.portfolio h2.post-title a{
 /************************************************************************************
 MOBILE
 *************************************************************************************/
+@media screen and(max-width: 1200px){
+    
+    #menu-icon.mobile-button{
+        color: white;
+        background: transparent;
+    }
+    .current_page_item{
+        color: #2882d6;
+    }  
+     
+}
 
 /************************************************************************************
 PRELOADER FOR PAGE
