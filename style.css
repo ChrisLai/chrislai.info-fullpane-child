@@ -101,9 +101,13 @@ MOBILE
         color: white;
         background: transparent;
     }
-    html #hedaerwrap #main-nav .current_page_item a{
+    html #headerwrap #main-nav .current_page_item a{
         color: #2882d6;
-    }  
+    }
+
+    html #headerwrap #main-nav .a:hover{
+        color: #2882d6;
+    }
 
 }
 
