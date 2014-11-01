@@ -101,10 +101,10 @@ MOBILE
         color: white;
         background: transparent;
     }
-    .current_page_item{
+    html #hedaerwrap #main-nav .current_page_item a{
         color: #2882d6;
     }  
-     
+
 }
 
 /************************************************************************************
